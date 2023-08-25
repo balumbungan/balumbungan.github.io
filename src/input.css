@@ -1,0 +1,40 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.nav-link {
+    @apply px-4 py-2 hover:bg-cyan-500/30 rounded-full hover:text-cyan-200 transition duration-300 font-semibold
+}
+
+.container-2 {
+    @apply px-6 py-4 lg:px-32 xl:px-52
+}
+
+.title-content {
+    @apply text-3xl font-semibold
+}
+
+.img-cover {
+    @apply border border-4 border-white shadow-lg aspect-video bg-cover bg-center hover:rotate-3 transition duration-300 hover:border-sky-300 object-cover object-center
+}
+
+.navbar-blur {
+    @apply bg-black/30 backdrop-blur backdrop-filter transition duration-300
+}
+
+.dusun-label {
+    @apply px-4 py-4 bg-white shadow-lg flex flex-row justify-between hover:bg-sky-100 transition duration-200 hover:text-sky-600
+}
+
+table {
+    @apply bg-white text-slate-700 shadow-lg
+}
+
+table > thead > tr > td, table > tfoot > tr > td {
+    @apply px-4 py-2 font-semibold border border-slate-600 text-center bg-blue-500 text-white md:text-base text-xs
+}
+
+table > tbody > tr > td {
+    @apply px-4 py-2  border border-slate-600 md:text-base text-xs
+}

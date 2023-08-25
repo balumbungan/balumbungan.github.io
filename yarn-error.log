@@ -1,0 +1,27 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Program Files (x86)\Yarn\bin\yarn.js add tailwindcss
+
+PATH: 
+  C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\Program Files\dotnet\;C:\xampp\php;C:\composer;C:\Program Files (x86)\Yarn\bin\;C:\xampp\mysql\bin;C:\xampp\ngrok;;C:\Program Files (x86)\Universal Extractor;C:\Program Files (x86)\Universal Extractor\bin;C:\Program Files\PuTTY\;C:\Users\Wahyu Hidayat\scoop\shims;C:\Users\Wahyu Hidayat\AppData\Local\Microsoft\WindowsApps;C:\Users\Wahyu Hidayat\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Wahyu Hidayat\AppData\Roaming\npm;C:\Users\Wahyu Hidayat\AppData\Roaming\Composer\vendor\bin;C:\Users\Wahyu Hidayat\AppData\Local\Yarn\bin;C:\Users\Wahyu Hidayat\AppData\Local\Microsoft\WindowsApps
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  16.16.0
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: getaddrinfo ENOTFOUND registry.yarnpkg.com
+      at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:71:26)
+
+npm manifest: 
+  No manifest
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
