@@ -580,6 +580,10 @@ video {
   top: 0px;
 }
 
+.col-span-3 {
+  grid-column: span 3 / span 3;
+}
+
 .my-12 {
   margin-top: 3rem;
   margin-bottom: 3rem;
@@ -603,6 +607,14 @@ video {
 
 .hidden {
   display: none;
+}
+
+.\!aspect-\[16\/4\] {
+  aspect-ratio: 16/4 !important;
+}
+
+.\!aspect-\[16\/5\] {
+  aspect-ratio: 16/5 !important;
 }
 
 .h-auto {
